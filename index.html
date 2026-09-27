@@ -137,7 +137,7 @@ footer p{margin:0 0 .3rem}
   document.getElementById('warmline').textContent = 'Thank you for being in the room. Tell me what you’d like, and my office will follow up.';
  }
  // Google Apps Script web app in Ethan Starke's own Google account. Set once deployed.
- var ENDPOINT = "";
+ var ENDPOINT = "https://script.google.com/macros/s/AKfycbyBkOmQc-awEFXrXtdLjRnC-NjnJBs8qjJBozqg5HDOjVRCgVzYMZZUqR6zaBY7LtO6/exec";
  var f=document.getElementById('lead'), err=document.getElementById('err');
  function fail(m){err.textContent=m;err.style.display='block';}
  f.addEventListener('submit',function(ev){
